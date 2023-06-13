@@ -111,7 +111,7 @@ fn main() {
     args.add_arg(&mut image);
     args.add_arg(&mut color_map);
 
-    let grid_dim = (clap_args.width / 32, clap_args.height, 1);
+    let grid_dim = ((clap_args.width + 31) / 32, clap_args.height, 1);
     let block_dim = (32, 1, 1);
 
     stream
