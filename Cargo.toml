@@ -1,0 +1,9 @@
+[package]
+name = "julia-sets"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cuda-interface = { version = "0.1.2", git = "https://github.com/binary-banter/cuda-interface" }
+clap = { version = "4.3.2", features = ["derive"] }
+png = "0.17.8"
