@@ -24,6 +24,6 @@ Options:
 
 # Examples
 ```shell
-cargo run --release -- -w=1920 -H=1080 -i=500 -x=0.285 -y=0.01 -t=1.2 -b=-1.2 -l=-2.1 -r=2.1 -o=output.png
+cargo run --release -- -w="1920" -H="1080" -i="500" -x="0.285" -y="0.01" -t="1.2" -b="-1.2" -l="-2.1" -r="2.1" -o="output.png"
 ```
 ![](output.png)
