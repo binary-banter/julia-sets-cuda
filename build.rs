@@ -18,7 +18,7 @@ fn main() {
         .args([
             "-O3",
             "-lib",
-            "-gencode=arch=compute_61,code=sm_61",
+            "--gpu-architecture=native",
             "src/kernel.cu",
             "-o",
         ])
